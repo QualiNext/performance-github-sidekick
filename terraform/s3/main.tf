@@ -5,7 +5,7 @@ resource "aws_s3_object" "file_upload" {
 }
 
 variable "bucket_name" {
-  description = "Name of the S3 bucket"
+  description = "Name of the S3 bucket 123"
   type        = string
 }
 
